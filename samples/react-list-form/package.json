@@ -2,6 +2,7 @@
   "name": "react-form-webpart",
   "version": "0.0.1",
   "private": true,
+  "author": "SPCAF",
   "engines": {
     "node": ">=0.10.0"
   },

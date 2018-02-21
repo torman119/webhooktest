@@ -20,12 +20,12 @@ export default class CalendarTemplate {
     public static emptyHtml(title: string): string {
         return `<div class="${styles.EmptyCalendar}">
                 <div class="${styles.container}">
-                <div class="ms-Grid-row ms-bgColor-themeDark ms-fontColor-white ${styles.row}">
+                <div class="ms-Grid-row ms-bgColor-themeDark ms-fontColor-white ${styles.row}" title="SPCAF">
                     <div class="ms-Grid-col ms-u-lg10 ms-u-xl8 ms-u-xlPush2 ms-u-lgPush1">
                     <span class="ms-font-xl ms-fontColor-white">${title}</span>
                     <p class="ms-font-l ms-fontColor-white">Edit this web part to continue</p>
                     <a href="https://aka.ms/spfx" class="${styles.button}">
-                        <span class="${styles.label}">View More Modern Web Parts</span>
+                        <span class="${styles.label}">View More Modern Web Parts SPCAF</span>
                     </a>
                     </div>
                 </div>
