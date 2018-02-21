@@ -19,7 +19,7 @@ export default class ToDoWebPart extends BaseClientSideWebPart<IToDoWebPartProps
     if (this.renderedOnce === false) {
       this.domElement.innerHTML = `
 <div class="${styles.toDoWebPart}">
-  <div data-ng-controller="HomeController as vm">
+  <div data-ng-controller="HomeController as vm" title="SPCAF">
     <div class="${styles.loading}" ng-show="vm.isLoading">
       <div class="${styles.spinner}">
         <div class="${styles.spinnerCircle} ${styles.spinnerLarge}"></div>
